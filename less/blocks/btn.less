@@ -1,0 +1,73 @@
+// main: ../style.less
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1.05em 1.7em;
+	min-width: 170px;
+
+	border: 1px solid @gray;
+	border-radius: 30px;
+
+	color: @black;
+	line-height: 1.1;
+	font-family: inherit;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: transparent;
+	
+	text-align: center;
+	text-decoration: none;
+	
+	cursor: pointer;
+
+	transition: color 0.13s linear, background-color 0.13s linear, box-shadow 0.13s linear, border-color 0.13s linear;
+
+	&:focus {
+		outline: none;
+	}
+
+	&:hover {
+		background-color: @black;
+		box-shadow: 2px 2px 10px fade(#000, 25%);
+		color: @white;
+		border-color: @black;
+	}
+	
+	& + & {
+		margin-left: 15px;
+	}
+
+
+	/* Modificators */
+	&--sm {
+		padding: 0.7em 1.1em;
+		min-width: 0;
+
+		font-size: 14px;
+		font-weight: 700;
+		border-width: 2px;
+	}
+
+	&--thin {
+		min-width: 145px;
+
+		font-size: 0.8rem;
+	}
+
+	@media @tablet {
+		font-size: 1rem;
+		padding: 1rem 1.5rem;
+		min-width: 10rem;
+	}
+
+	@media @mobile-sm {
+		display: block;
+		width: 100%;
+
+		+ .btn {
+			margin-left: 0;
+			margin-top: 1rem;
+		}
+	}
+}

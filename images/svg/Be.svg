@@ -1,0 +1,18 @@
+<svg id="Be" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1869ff;
+      }
+
+      .cls-2 {
+        font-size: 23px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="41" height="41"/>
+  <text id="be-2" data-name="be" class="cls-2" y="9.5"></text>
+</svg>

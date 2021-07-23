@@ -1,0 +1,18 @@
+<svg id="In" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #007bb6;
+      }
+
+      .cls-2 {
+        font-size: 24px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <rect id="bg" class="cls-1" width="41" height="41"/>
+  <text id="in-2" data-name="in" class="cls-2" y="7.5"></text>
+</svg>
